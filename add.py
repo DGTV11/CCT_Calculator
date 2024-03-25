@@ -1,5 +1,5 @@
-def addint(a:int, b:int) -> int:
+def add_int(a:int, b:int) -> int:
     return a + b
 
-def addfloat(a:int, b:int) -> float:
+def add_float(a:int, b:int) -> float:
     return a + b
