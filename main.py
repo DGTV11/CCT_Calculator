@@ -16,6 +16,13 @@ if __name__ == '__main__':
 
     is_float = '.' in n1 or '.' in n2
 
+    if is_float:
+        n1 = float(n1)
+        n2 = float(n2)
+    else:
+        n1 = int(n1)
+        n2 = int(n2)
+
     match choice:
         case 1:
             if is_float:
